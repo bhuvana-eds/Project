@@ -27,6 +27,7 @@ public class EmployeeController extends HttpServlet {
         // Set response content type and write JSON data
         response.setContentType("application/json");
         response.getWriter().write(jsonEmployees);
+        System.out.println("Creating Version 0.1");
     }
 
     // Implement doPost, doPut, and doDelete methods for CRUD operations
