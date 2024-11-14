@@ -1,0 +1,16 @@
+[
+	{
+		"employee":
+		{
+			"pwd":"Madhu@2002",
+			"email":"madhuryabhargavan02@gmail.com"
+		}
+	},
+	{
+		"employee":
+		{
+			"pwd":"Rahul@123",
+			"email":"rahuljp@gmail.com"
+		}
+	}
+]

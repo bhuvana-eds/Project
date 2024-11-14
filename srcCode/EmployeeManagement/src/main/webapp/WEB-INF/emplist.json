@@ -1,0 +1,21 @@
+{
+	"employee":
+	[
+		{
+			"empid": 911488,
+			"name": "Madhurya B",
+			"designation": "Administrative Assistant",
+			"department": "Admin",
+			"mail": "madhuryabhargavan02@gmail.com",
+			"phone": 9036023590
+		},
+		{
+			"empid": 123456,
+			"name": "Rahul J P",
+			"designation": "Application Engineer",
+			"department": "Engineering Solutions",
+			"mail": "rahuljp@gmail.com",
+			"phone": 8745236985
+		}
+	]
+}
