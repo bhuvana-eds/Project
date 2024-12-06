@@ -67,6 +67,7 @@ public class ApprovalServlet extends HttpServlet {
                         System.out.println("Employee data not found for employee code: " + employeeCode);
                         System.out.println("Creating Version 1.0");
                         System.out.println("Creating Version 1.1");
+                        System.out.println("Creating Version 1.2");
                     }
                 }
             }
