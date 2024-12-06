@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background: #eeeeee;
+}
+
+.login-container {
+	position: relative;
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	justify-content: center;
+}
+
+.login-container1 {
+	position: relative;
+	width: 400px;
+	height: 450px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	justify-content: center;
+}
+
+.login-container form {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin: 4px 0;
+	padding: 25px;
+}
+
+.login-container1 form {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin: 4px 0;
+	padding: 25px;
+}
+
+.login-container label {
+	font-size: 20px;
+	font-weight: 500;
+	color: #2e2e2e;
+}
+
+.login-container1 label {
+	font-size: 20px;
+	font-weight: 500;
+	color: #2e2e2e;
+}
+
+.login-container input {
+	outline: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding: 0 15px;
+	height: 42px;
+	margin: 8px 0;
+}
+
+.login-container1 input {
+	outline: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding: 0 15px;
+	height: 42px;
+	margin: 8px 0;
+}
+
+form button {
+	width: 100px;
+	padding: 10px;
+	background-color: #6e92f5;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 20px;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+}
+
+p {
+	padding: 20px;
+	text-align: center;
+}
+
+form button:hover {
+	background-color: #3498db;
+}
+
+.login-container h2::before {
+	content: "";
+	position: absolute;
+	left: 41%;
+	bottom: -2px;
+	height: 3px;
+	width: 27px;
+	border-radius: 8px;
+	background-color: #6e92f5;
+}
+
+.login-container1 h2::before {
+	content: "";
+	position: absolute;
+	left: 20%;
+	bottom: -2px;
+	height: 3px;
+	width: 27px;
+	border-radius: 8px;
+	background-color: #6e92f5;
+}
+
+h4 {
+	color: red;
+}
+
+.image {
+	text-align: center;
+}
+
+img {
+	padding-top: 20px;
+	width: 100px;
+	height: auto;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
